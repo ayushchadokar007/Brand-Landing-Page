@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brand Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">My Brand</div> 
+
+            <!-- Toggle Button for small screens -->
+            <input type="checkbox" id="menu-toggle" />
+            <label for="menu-toggle" class="hamburger">&#9776;</label>
+
+            <ul class="nav-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#features">Feature</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Your Dream Product</h1>
+        <p>Experience the best product designed to enhance your lifestyle. Start your journey today!</p>
+        <button>Discover More</button>
+    </section>
+
+    <section id="features">
+        <h2>Features</h2>
+        <div class="feature-grid">
+            <div id="feature-item">
+                <img src="img/product-1.jpg" alt="Feature 1">
+                <h3>Feature One</h3>
+                <p>This feature is designed to give you the best user experience.</p>
+            </div>
+
+            <div id="feature-item">
+                <img src="img/product-2.jpg" alt="Feature 2">
+                <h3>Feature Two</h3>
+                <p>Our second feature focuses on improving efficiency and productivity.</p>
+            </div>
+
+            <div id="feature-item">
+                <img src="img/product-3.jpg" alt="Feature 3">
+                <h3>Feature Three</h3>
+                <p>Enjoy cutting-edge technology with our unique feature three.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button> 
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 My Brand. All rights reserved.</p>
+    </footer>
+</body>
+</html>
